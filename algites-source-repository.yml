@@ -1,6 +1,8 @@
 sourceRepository:
-  id: pub.tpl.Basic (to be changed)
-  name: Algites public (to be specified) repository
+  id: pub.tool.Mps
+  name: Algites public MPS tools repository
+
+groupId: eu.algites.tool.mps
 
 versionContext:
   releaseLine: "1"

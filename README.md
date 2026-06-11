@@ -2,46 +2,37 @@
 
 Short description of the project.
 
-> Public Algites project.
+> Public Algites MPS tools.
 
 ---
 
 ## 📦 Overview
 
-Describe:
-- what this project is,
-- what problem it solves,
-- who it is for.
+This project contains:
+- publicly usable tools from the area of JetBrains MPS (Meta-Programming-System),
+- Is used either for core MPS improvement or tools for other algites libraries 
+  and application,
+- Is intended for MPS developers and for the consumers of those products.
 
 Example:
-This repository contains the implementation of **<Project Name>**, a <library/tool/framework/platform/app>
-that is part of the Algites ecosystem.
+This repository contains the implementations and assemblies of various simple tools
+extending the Algites ecosystem of the usage of Meta-Programming-System.
 
 ---
 
 ## 🧱 Modules & Structure
 
-Briefly describe the structure, for example:
+General structure of repository contains
 
 ```
 .
 ├── README.md
-└──(module/root/path - custom, sometimes even empty)
-          ├── README.md
-          └── (module-name)
-                    ├── run/
-                    ├── src/
-                    |    ├── product/
-                    |    |      ├── java/
-                    |    |      └── (other-tech-specific-folder)/
-                    |    └── develop/
-                    |           ├── java/
-                    |           └── (other-tech-specific-folder)/
-                    ├── doc/
-                    └── README.md
-```
+├── core - contains the tools, which are working directly with the MPS core without any extensions of the languages, etc.
+|          ├── README.md
+|          └── documentation - contains teh MPS project for documentation tools
+├── ...
 
-Adjust this section to your project specifics.
+```
 
 ---
 
@@ -53,12 +44,6 @@ Adjust this section to your project specifics.
 ./gradlew build
 ```
 
-### Maven
-
-```bash
-mvn clean verify
-```
-
 ---
 
 ## 🔄 Continuous Integration (Algites CI)
@@ -66,18 +51,18 @@ mvn clean verify
 This repository uses the **Algites unified GitHub Actions CI pipeline** (build/test/publish rules are centralized).
 
 For exact usage and naming of the branches to utilize fully the defined possibilities, see
-https://github.com/Algites-EU/pub.gov.Algites.specs/blob/main/ci/Algites-Github-CI-Policy.md
+https://github.com/Algites-EU/pub.gov.Algites/specs/
 
 ---
 
 ## 📥 Usage
 
-Describe:
+Describe: TBD
 - how to consume the library/tool,
 - example dependency coordinates,
 - or how to run the application.
 
-Example (Maven):
+Example (Maven): TBD
 
 ```xml
 <dependency>
@@ -94,15 +79,9 @@ Example (Maven):
 Typical workflow:
 
 ```bash
-git clone https://github.com/Algites-EU/<repo>.git
+git clone https://github.com/Algites-EU/pub.tool.Mps.git
 cd <repo>
 ./gradlew build
-```
-
-or
-
-```bash
-mvn clean verify
 ```
 
 ---
@@ -130,7 +109,7 @@ Algites develops platforms, tools, and applications based on strong governance,
 modeling, and automation principles.
 
 See:
-- https://github.com/Algites-EU/pub.gov.Algites.specs
+- https://github.com/Algites-EU/pub.gov.Algites/tree/main/specs
 
 ---
 
